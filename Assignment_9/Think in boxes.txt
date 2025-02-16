@@ -1,0 +1,11 @@
+The first red box is the header and inside the header there two components. The first one (blue box) is like a top page of the website it includes: an image (logo,icon), a nested lists, search bar, and buttons.
+
+The second component is the navigation bar and it is basically a list of items.
+
+The green box, I think it is an aside it includes list of items and also a heading for the title of each list.
+
+The middle is the main (orange box), it includes 3 sections. They are made of headings, paragraphs, buttons, and image.
+
+The right side(blue box), is also an aside element that contains of an image element for the advertisements and icons.
+
+The big red box below is the Footer. the blue box is a section with an image element and nested lists. While the black box also includes a list items of icons and items.
