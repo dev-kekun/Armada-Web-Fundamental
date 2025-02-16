@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about_me">About Me</a></li>
+                <li><a href="#rankings">Rankings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about_me">
+            <h2>About me</h2>
+            <p>Hello, I am Ricky David a fourth-year college student at City College of Angeles.</p>
+            <p>This portfolio showcases some of my hobby and interests.</p>
+            <img src="welcome.jpg" alt="welcome to my world meme">
+        </section>
+        <section id="rankings">
+            <h2>Rankings of the Anime I Watched</h2>
+            <table>
+                <tr>
+                    <td><strong>Anime Name</strong></td>
+                    <td><strong>Description</strong></td>
+                    <td><strong>Ranking</strong></td>
+                </tr>
+                <tr>
+                    <td>Code Geass</td>
+                    <td>Lelouch leads a rebellion with mind-control powers in a dystopian world</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Death Note</td>
+                    <td>High schooler Light Yagami battles with a lethal notebook's power for justice</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Hunter x Hunter</td>
+                    <td>Young Gon Freecss searches for his father while becoming a skilled Hunter</td>
+                    <td>3</td>
+                </tr>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="full_name">Full Name:</label>
+                <input type="text" id="full_name" name="full_name"><br><br>
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" name="email"><br><br>
+                <fieldset>
+                    <legend>How did you hear about this portfolio?</legend>
+                    <input type="radio" id="friend" name="source" value="friend">
+                    <label for="friend">Friend</label><br>
+                    <input type="radio" id="social_media" name="source" value="social_media">
+                    <label for="social_media">Social Media</label><br>
+                    <input type="radio" id="search_engine" name="source" value="search_engine">
+                    <label for="search_engine">Search Engine</label><br>
+                    <input type="radio" id="other" name="source" value="other">
+                    <label for="other">Other</label><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend>Hobby/Interests</legend>
+                    <input type="checkbox" id="anime" name="hobby" value="anime">
+                    <label for="anime">Anime</label><br>
+                    <input type="checkbox" id="manga" name="hobby" value="manga">
+                    <label for="manga">Manga</label><br>
+                    <input type="checkbox" id="drawing" name="hobby" value="drawing">
+                    <label for="drawing">Drawing</label>
+                </fieldset><br>
+                <label for="role">What best describes you?</label>
+                <select name="role" id="role">
+                    <option value="student">Student</option>
+                    <option value="professional">Professional</option>
+                    <option value="other">Other</option>
+                </select><br><br>
+                <h4>Comment or Message</h4>
+                <textarea name="message" id="message"></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; Ricky David 2025</p>
+        </footer>
+    </main>
+</body>
+
+</html>

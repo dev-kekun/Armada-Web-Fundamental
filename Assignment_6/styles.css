@@ -1,0 +1,107 @@
+body {
+    margin: 20px;
+    background-color: #0C090A;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+header {
+    padding: 5px;
+    text-align: center;
+}
+
+nav {
+    background-color: #171113;
+    border-radius: 5px;
+    height: 50px;
+    padding: 5px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+}
+
+a:hover {
+    color: gray;
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#about_me, #contact {
+    border: 1px solid;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 50px 150px;
+
+}
+
+h2, p {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+input[type="text"],input[type="password"]{
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+fieldset{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form label{
+    display: block;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h4{
+    text-align: center;
+}
+
+textarea{
+    resize: none;
+    width: 870px;
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+button{
+    width: 875px;
+    height: 30px;
+}

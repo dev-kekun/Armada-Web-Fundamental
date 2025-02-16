@@ -1,0 +1,9 @@
+My first approach is to put a width in the footer after that I put border in the body.
+Then I add a background color to the left side panel and adjust the width of the boxes.
+Then I adjusted the gap in the right panel.
+Then I change the gap of the right panel.
+Then I adjusted the border radius of the boxes.
+Finally, I change the text color into white.
+----
+It took me around 20 minutes to do this task.
+I really don't know if what I did is correct, I just followed the design and it was simple.
