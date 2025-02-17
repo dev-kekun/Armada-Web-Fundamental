@@ -1,0 +1,66 @@
+body{
+    color: white;
+    font-family: Segoe UI, sans-serif;
+}
+
+main{
+    height: 290px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0px 4px 8px 0px gray;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    height: 50px;
+    width: 400px;
+    padding-top: 10px;
+}
+
+h1, li{
+    border-radius: 5px;
+    border: 0.5px solid gray;
+}
+
+h1, .add-task{
+    background-color: rgb(28, 103, 224);
+}
+
+.input-task{
+    height: 30px;
+    width: 297px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0.5px solid gray;
+
+}
+
+.add-task{
+    color: white;
+    height: 33px;
+    width: 98px;
+    margin-left: -5px;
+    border-radius: 0px 5px 5px 0px;
+    border: 0.5px solid black;
+}
+
+ul{
+    color: black;
+}
+
+li{
+    list-style: none;
+    height: 30px;
+    width: 395px;
+    background-color: rgba(173, 216, 230, 0.886);
+    margin: 10px 10px 20px -38px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.complete-task{
+    text-decoration: line-through;
+    background-color: rgb(47, 220, 47);
+}
