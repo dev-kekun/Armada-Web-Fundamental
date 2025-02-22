@@ -1,0 +1,323 @@
+*{
+    outline: 1px dashed red;
+}
+
+* ul,li{
+    list-style: none;
+    display: flex;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+}
+
+header{
+    height: 50px;
+    padding: 0px 30px;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.575);
+}
+
+header .logo{
+    display: flex;
+}
+
+.logo img{
+    padding-top: 8px;
+    height: 30px;
+}
+
+header ul{
+    gap: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #7b8289;
+}
+
+header form{
+    display: flex;
+    margin: 10px 0px;
+    gap: 10px;
+}
+
+header form input[type="search"]{
+    height: 30px;
+    width: 482px;
+    margin: 0px 0px 0px 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.726);
+}
+
+header form input[type="button"]{
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid rgb(21, 92, 162);
+}
+
+header form .log-in{
+    background-color: white;
+    color: rgb(21, 92, 162);
+}
+
+header form .sign-up{
+    color: white;
+    background-color: rgb(21, 92, 162);
+}
+
+main .home-hero,
+main .for-teams{
+    display: flex;
+    padding: 0px 40px;
+    height: auto;
+}
+
+main ul{
+    width: 200px;
+    height: auto;
+    padding: 0px 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
+
+main ul .icon-margin-top{
+    margin-top: 30px;
+}
+
+main ul .icon-margin-bottom{
+    margin-bottom: 30px;
+}
+
+main ul li span{
+    font-weight: bold;
+}
+
+main .content-container{
+    width: 957px;
+    height: 263px;
+    padding-left: 40px;
+    padding-top: 10px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: #F9FAFA;
+    position: relative;
+    display: inline-block;
+}
+
+.content-information img{
+    position: absolute;
+    width: 400px;
+    top: 20%;
+    left: 50%;
+}
+
+main .content-container .content-information{
+    width: 420px;
+}
+
+main .content-container .content-information h1{
+    color: #3d4247;
+}
+
+main .content-container .content-information h1 span{
+    background-color: #e7700d;
+    color: white;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+
+main .content-container .content-information input,
+.for-teams input,
+.ad-and-api input,
+.work-here input{
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: #1b75d0;
+    color: white;
+    border: none;
+}
+
+main .content-container .content-information a{
+    text-decoration: none;
+    color: #237ad0;
+    padding: 0px 40px;
+}
+
+main .for-teams,
+.overflow-ai,
+.ad-and-api,
+.work-here{
+    position: relative;
+    height: 200px;
+    margin: 0px 38px 0px 250px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+}
+
+.sub-title{
+    margin-left: 250px;
+}
+
+.for-teams .team-logo{
+    height: 50px;
+    position: absolute;
+    top: 15%;
+}
+
+.home-team{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    height: 170px;
+}
+
+.for-teams p{
+    margin-top: 90px;
+    max-width: 500px;
+}
+
+.for-teams input{
+    height: 30px;
+    width: 120px;
+    position: absolute;
+    bottom: 10%;
+}
+
+.for-teams a{
+    color: #237ad0;
+    position: absolute;
+    bottom: 13%;
+    left: 18%;;
+    font-size: 14px;
+}
+
+.overflow-ai{
+    padding: 0px 40px;
+    background-color: #3b4045;
+    margin-top: 20px;
+    position: relative;
+}
+
+.overflow-ai p{
+    margin-top: 90px;
+    color: white;
+    max-width: 540px;
+}
+
+.overflow-ai p span{
+    font-weight: bold;
+}
+
+.overflow-ai input{
+    height: 30px;
+    background-color: #e7700d;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.overflow-ai-logo{
+    position: absolute;
+    height: 60px;
+    top: 10%;
+    left: 4%;
+}
+
+.overflow-ai-home{
+    position: absolute;
+    height: 160px;
+    bottom: 0%;
+    right: 0%;
+}
+
+.ad-and-api{
+    border: none;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    gap: 27px;
+    padding: 0;
+    height: 250px;
+}
+
+.ad, .api{
+    position: relative;
+    border-radius: 10px;
+    width: 470px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+    padding: 0px 40px;
+}
+
+.ad p,
+.api p{
+    margin-top: 90px;
+}
+
+.ad-and-api input{
+    margin-top: 30px;
+    height: 30px;
+    width: 170px;
+}
+
+.ad-and-api a{
+    color: #1b75d0;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.ad img{
+    position: absolute;
+    width: 150px;
+    top: 0%;
+    left: 9%;
+}
+
+.api input{
+    margin-top: 8px;
+}
+
+.api img{
+    position: absolute;
+    width: 200px;
+    top: 5%;
+    left: 8%;
+}
+
+.work-here{
+    position: relative;
+    padding: 0px 40px;
+}
+
+.work-here input{
+    width: 180px;
+    height: 30px;
+}
+.work-here p{
+    margin-top: 80px;
+    max-width: 370px;
+}
+
+.overflow-logo{
+    height: 30px;
+    position: absolute;
+    top: 15%;
+    left: 4%;
+}
+
+.career{
+    position: absolute;
+    height: 250px;
+    bottom: 0%;
+    right: 2%;
+}
