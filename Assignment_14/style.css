@@ -1,0 +1,342 @@
+*{
+    /* outline: 1px dashed red; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+}
+
+nav{
+    display: flex;
+    background-color: #25292e;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-link{
+    padding-top: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+form{
+    position: relative;
+    margin-left: 150px;
+    padding-top: 18px;
+}
+
+form input{
+    background-color: #25292e;
+    color: white;
+    border-radius: 5px;
+}
+
+form input[type="search"]{
+    border: 1px solid rgba(128, 128, 128, 0.8);
+    color: white;
+    height: 30px;
+    width: 260px;
+    padding-left: 20px;
+}
+
+form input[type="submit"]{
+    height: 30px;
+    width: 65px;
+}
+
+.sign-in{
+    border: none;
+}
+
+.sign-up{
+    border: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.search-icon{
+    position: absolute;
+    left: 1%;
+    top: 38%;
+}
+
+.slash-icon{
+    position: absolute;
+    left: 58%;
+    top: 35%;
+}
+
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav ul{
+    padding: 0px;
+}
+
+.main-nav ul li{
+    display: inline-block;
+}
+
+
+.active-btn{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 19px;
+    text-decoration-color: #4493f8 ;
+}
+
+.inactive-btn{
+    text-decoration: none;
+    color: #8d8c8b;
+}
+
+.sub-title{
+    color: #8d8c8b;
+    font-weight: 600;
+    margin-left: 340px;
+}
+
+.game-off-section,
+.recommendation{
+    display: flex;
+    position: relative;
+    width: 550px;
+    height: 480px;
+    margin: 0px 0px 0px 340px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.game-off{
+    position: absolute;
+    width: 550px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.game-off-section ul{
+    padding: 0px 20px;
+    flex-direction: column;
+    color: white;
+    margin-top: 300px;
+}
+
+.user-profile{
+    margin-top: 5px;
+}
+
+.user-name{
+    text-decoration: none;
+    color: #8d8c8b;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.top-rated-games{
+    text-decoration: none;
+    color: #4493f8;
+    font-size: 20px;
+}
+
+.game-off-section ul li p{
+    margin: 0px;
+    color: #8d8c8b;
+    font-size: 13px;
+}
+
+.recommendation{
+    padding: 10px 20px;
+    margin-top: 20px;
+    height: 180px;
+    width: 510px;
+}
+
+.github-profile{
+    min-width: 250px;
+    height: 40px;
+}
+
+.github-profile img{
+    margin-top: 5px;
+}
+
+.github-profile a{
+    text-decoration: none;
+    color: #8d8c8b;
+    font-size: 13px;
+}
+
+.github-profile a span{
+    font-weight: 500;
+}
+
+.recommendation ul{
+    position: absolute;
+    min-width: 400px;
+    gap: 0px;
+    flex-direction: column;
+    top: 30%;
+    left: 20%;
+}
+
+.recommendation ul li a{
+    text-decoration: none;
+}
+
+.recommendation ul li p{
+    font-size: 12px;
+    color: #8d8c8b;
+}
+
+.game-engine{
+    color: #4493f8;
+    font-size: 18px;
+}
+
+.see-more{
+    font-size: 12px;
+    color: #4087e4;
+}
+
+.game-off-profile{
+    height: 100px;
+    width: 110px;
+    background-color: #111d2f;
+    border-radius: 5px;
+    position: absolute;
+    top: 35%;
+}
+
+.game-off-profile p{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+aside{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 220px;
+    height: 435px;
+    top: 23%;
+    right: 9%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.trending-developer{
+    display: flex;
+    height: 30px;
+    padding: 15px 10px 0px;
+    background-color: #151b23;
+    border: 1px solid gray;
+}
+
+.trending-developer img{
+    height: 20px;
+}
+
+.trending-developer h5{
+    position: absolute;
+    font-weight: 500;
+    border-radius: 5px 5px 0px 0px;
+    margin: 1px 0px 0px 30px;
+    color: white;
+}
+
+.developer-info{
+    padding: 15px 15px 0px 10px;
+    height: 70px;
+    border: 1px solid gray;
+}
+
+.developer-info img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+aside ul{
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 13%;
+    left: 33%;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.developer-profile,
+.see-more-developer a{
+    color: #4493f8;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.developer-bookmark,
+.developer-info ul li p{
+    font-size: 10px;
+    color: #8d8c8b;
+    text-decoration: none;
+}
+
+
+.developer-info ul li p{
+    font-size: 13px;
+    margin: 5px 0px;
+}
+
+.developer-info ul li img{
+    width: 15px;
+}
+
+.dev-2{
+    top: 32%;
+}
+
+.dev-3{
+    top: 52%;
+}
+
+.dev-4{
+    top: 71%;
+}
+
+.see-more-developer{
+    padding: 10px;
+}
+
+.see-more-developer a{
+    font-size: 12px;
+}
+
+footer{
+
+    margin: 100px 200px 20px 200px;
+    display: flex;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #8d8c8b;
+    font-size: 12px;
+}
+
+
+
+
